@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ebda61e3fa.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h2>Quiz</h2>
+            <p class="status-time">Time<span class="time">20</span></p>
+        </header>
+        <main class="main-question">
+            <div class="question"></div>
+            <div class="answer-cotainer"></div>
+        </main>
+        <footer class="footer">
+            <p><span class="first"></span> of <span class="last"></span> Question</p>
+            <a class="next-Question" href="#">next</a>
+            <a class="end-Quez" href="#">End Quez</a>
+        </footer>
+    </div>
+    <div class="result-box">
+        <div class="cup">
+            <img class="cup-image">
+        </div>
+        <div class="message">
+            <p class="message-text"></p>
+            <p> You got
+                <span class="result-right"></span>
+                out of
+                <span class="of-question"></span>
+            </p>
+        </div>
+        <a href="#" class="restart-quez">Restart Quez</a>
+    </div>
+
+    <script src="public/js/questions.js"></script>
+    <script src="public/js/app.js"></script>
+</body>
+
+</html>
